@@ -1,0 +1,6 @@
+.Content-Container{
+    background-color: blue;
+    display: flex;
+    flex: 1;
+    height: 500vh;
+}

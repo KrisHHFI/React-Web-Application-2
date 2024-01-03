@@ -1,0 +1,8 @@
+.Header-Container {
+    background-color: red;
+    display: flex;
+    flex: 1;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
