@@ -4,16 +4,18 @@ import './StyleSheets/Header.css';
 import './StyleSheets/Content.css';
 import './StyleSheets/Clock.css';
 // Components
-import Header from './Components/Header';
-import Content from './Components/Content';
 import Clock from './Components/Clock';
 
 function App() {
   return (
     <div className="Wrapper">
-      <Header />
-      <Content />
-      {/* <Clock /> */}
+      <div className="Header-Container">
+        Header
+         {/* <Clock /> */}
+      </div>
+      <div className="Content-Container">
+        Content
+      </div>
     </div>
   );
 }
