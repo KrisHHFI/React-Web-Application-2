@@ -3,14 +3,35 @@
     display: flex;
     flex: 1;
     flex-direction: column;
-    height: 100vh;
+    height: calc(100vh - 30px);
     position: sticky;
     top: 0;
     justify-content: center;
 }
 
 .Header-Item {
-    flex: 1;
     display: flex;
     align-items: center; 
+    justify-content: center;
+    width: 100%;
+}
+
+.CompanyLogo {
+    width: 30%;
+}
+
+.CompanyText {
+    width: 40%;
+}
+
+.Nav-Bar {
+    background-color: rgb(219, 219, 219);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+.Nav-Item {
+    padding: 5px 0 5px 0;
 }
