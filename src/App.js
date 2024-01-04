@@ -10,11 +10,14 @@ function App() {
   return (
     <div className="Wrapper">
       <div className="Header-Container">
-        <Clock />
-        <div>
+        <div className="Header-Item">
+          {/* <Clock /> */}
+          Clock
+        </div>
+        <div className="Header-Item">
           Company Logo/and Name
         </div>
-        <div>
+        <div className="Header-Item">
           3 Buttons: Products, About, Contact
         </div>
       </div>
