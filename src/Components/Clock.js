@@ -9,7 +9,6 @@ export default function Clock() {
         const localTime = new Date();
 
         // Get the current hours, minutes, and seconds
-        const date = localTime.getDate();
         const hours = localTime.getHours();
         const minutes = localTime.getMinutes();
         const seconds = localTime.getSeconds();
@@ -21,13 +20,9 @@ export default function Clock() {
         const secondRotation = ((seconds + localTime.getMilliseconds() / 1000) / 60) * full_Turn;
 
         // Get the clock elements
-        const dateContainer = document.getElementById('date');
         const hourHand = document.getElementById('hourHand');
         const minuteHand = document.getElementById('minuteHand');
         const secondHand = document.getElementById('secondHand');
-
-        // Apply the date to the date container
-        dateContainer.innerHTML = date;
 
         // Apply the rotations to the clock hands
         hourHand.style.transform = `translate(-50%, -100%) rotate(${hourRotation}deg)`;
@@ -47,39 +42,36 @@ export default function Clock() {
     document.addEventListener("DOMContentLoaded", initializeClock);
 
     return (
-        <div className="Section1">
-            <div class="clock">
-                <img src={ClockCase} class="clockCaseImage clockCentre"></img>
-                <div class="face clockCentre">
-                    <div id="alphanumerics" class="alphanumerics">
-                        <p class="twelve">12</p>
-                        <p class="one">1</p>
-                        <p class="two">2</p>
-                        <p class="three">3</p>
-                        <p class="four">4</p>
-                        <p class="five">5</p>
-                        <p class="six">6</p>
-                        <p class="seven">7</p>
-                        <p class="eight">8</p>
-                        <p class="nine">9</p>
-                        <p class="ten">10</p>
-                        <p class="eleven">11</p>
-                        <img src={Signature} class="signature clockCentre"></img>
-                        <div class="date" id="date"></div>
+        <div class="clock">
+            <img src={ClockCase} class="clockCaseImage clockCentre"></img>
+            <div class="face clockCentre">
+                <div id="alphanumerics" class="alphanumerics">
+                    <p class="twelve">12</p>
+                    <p class="one">1</p>
+                    <p class="two">2</p>
+                    <p class="three">3</p>
+                    <p class="four">4</p>
+                    <p class="five">5</p>
+                    <p class="six">6</p>
+                    <p class="seven">7</p>
+                    <p class="eight">8</p>
+                    <p class="nine">9</p>
+                    <p class="ten">10</p>
+                    <p class="eleven">11</p>
+                    <img src={Signature} class="signature clockCentre"></img>
+                </div>
+                <div id="hands" class="clockCentre">
+                    <div class="handBase"></div>
+                    <div class="hourHand clockCentre" id="hourHand">
+                        <div class="hourHandInvertedPointer"></div>
+                        <div class="hourHandPointer"></div>
                     </div>
-                    <div id="hands" class="clockCentre">
-                        <div class="handBase"></div>
-                        <div class="hourHand clockCentre" id="hourHand">
-                            <div class="hourHandInvertedPointer"></div>
-                            <div class="hourHandPointer"></div>
-                        </div>
-                        <div class="minuteHand clockCentre" id="minuteHand">
-                            <div class="minuteHandInvertedPointer"></div>
-                            <div class="minuteHandPointer"></div>
-                        </div>
-                        <div class="secondHand clockCentre" id="secondHand">
-                            <div class="secondHandPointer"></div>
-                        </div>
+                    <div class="minuteHand clockCentre" id="minuteHand">
+                        <div class="minuteHandInvertedPointer"></div>
+                        <div class="minuteHandPointer"></div>
+                    </div>
+                    <div class="secondHand clockCentre" id="secondHand">
+                        <div class="secondHandPointer"></div>
                     </div>
                 </div>
             </div>

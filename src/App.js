@@ -10,10 +10,7 @@ function App() {
   return (
     <div className="Wrapper">
       <div className="Header-Container">
-        <div>
-          Clock
-          {/* <Clock /> */}
-        </div>
+        <Clock />
         <div>
           Company Logo/and Name
         </div>
