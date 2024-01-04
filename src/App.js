@@ -1,5 +1,5 @@
 // Stylesheets
-import './App.css';
+import './StyleSheets/App.css';
 import './StyleSheets/Header.css';
 import './StyleSheets/Content.css';
 import './StyleSheets/Clock.css';

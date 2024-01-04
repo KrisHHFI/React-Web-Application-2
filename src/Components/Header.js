@@ -15,13 +15,13 @@ export default function Header() {
             <div className="Header-Item">
                 <div className="Nav-Bar">
                     <div className="Nav-Item">
-                        Products
+                        <a href="">Products</a>
                     </div>
                     <div className="Nav-Item">
-                        About
+                        <a href="">About</a>
                     </div>
                     <div className="Nav-Item">
-                        Contact
+                        <a href="">Contact</a>
                     </div>
                 </div>
             </div>
