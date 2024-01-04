@@ -11,7 +11,7 @@
 
 .Header-Item {
     display: flex;
-    align-items: center; 
+    align-items: center;
     justify-content: center;
     width: 100%;
 }
@@ -38,8 +38,22 @@
 
 .Nav-Item {
     padding: 7px 0 7px 0;
+    width: inherit;
+    text-align: center
 }
 
 .Nav-Item:hover {
     color: rgb(37, 129, 28);
 }
+
+.active {
+    background-color: rgb(37, 129, 28);
+    color: White;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.active:hover {
+    background-color: rgb(28, 100, 22);
+    color: White;
+  }
