@@ -13,3 +13,14 @@
 .Product-1 {
     background-color: red;
 }
+
+.Product {
+    display: flex;
+    height: 100%;
+}
+
+.Product-Section {
+    display: flex;
+    flex: 1;
+    
+}
