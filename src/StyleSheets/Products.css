@@ -17,10 +17,25 @@
 .Product {
     display: flex;
     height: 100%;
+    padding-right: 20px;
 }
 
 .Product-Section {
     display: flex;
+    flex-direction: column;
     flex: 1;
-    
+    justify-content: center;
+    text-align: center;
+}
+
+.Product-Section-Divider {
+    color: white;
+}
+
+.Product-Text {
+    text-align: left;
+} 
+
+.Product-Link {
+
 }
