@@ -37,9 +37,16 @@
 }
 
 .Nav-Item {
-    padding: 7px 0 7px 0;
     width: inherit;
     text-align: center
+}
+
+.Nav-Item a {
+    padding: 7px 0;
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color: inherit;
 }
 
 .Nav-Item:hover {
