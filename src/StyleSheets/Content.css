@@ -2,5 +2,5 @@
     background-color: blue;
     display: flex;
     flex: 1;
-    height: 500vh;
+    min-height: 100vh;
 }

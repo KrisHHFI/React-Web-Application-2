@@ -1,0 +1,15 @@
+.Product-Container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.Product-Item {
+    height: 200px;
+    width: 100%;
+}
+
+.Product-1 {
+    background-color: red;
+}

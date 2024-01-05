@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 // Stylesheets
-import './StyleSheets/App.css';
+import './StyleSheets/Common.css';
 import './StyleSheets/Header.css';
 import './StyleSheets/Content.css';
+import './StyleSheets/Products.css';
+import './StyleSheets/About.css';
 import './StyleSheets/Clock.css';
 // Components
 import Header from './Components/Header';

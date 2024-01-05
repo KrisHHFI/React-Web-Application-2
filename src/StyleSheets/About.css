@@ -1,0 +1,15 @@
+.About-Container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.About-Item {
+    height: 400px;
+    width: 100%;
+}
+
+.About-1 {
+    background-color: red;
+}
