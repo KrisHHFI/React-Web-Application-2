@@ -43,12 +43,6 @@
     width: 60%;
 }
 
-.Product-Title {
-    font-size: 30px;
-    font-weight: bold;
-    color: white; /* Text color */
-}
-
 .Product-Text {
     text-align: left;
     font-size: 18px;

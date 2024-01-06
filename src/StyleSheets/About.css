@@ -16,8 +16,16 @@
     background-color: red;
 }
 
-.AboutImage {
+.About-Divider {
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
 
+.AboutImageTitle {
+    height: 20%;
 }
 
 /* background-color: rgb(219, 219, 219); */
