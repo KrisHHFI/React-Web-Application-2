@@ -2,14 +2,22 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    background-color: transparent;
 
 }
 
 .About-Item {
     height: 400px;
     width: 100%;
+    position: relative;
 }
 
 .About-1 {
     background-color: red;
 }
+
+.AboutImage {
+
+}
+
+/* background-color: rgb(219, 219, 219); */

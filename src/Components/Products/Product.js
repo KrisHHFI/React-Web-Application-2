@@ -3,9 +3,9 @@ import React from 'react';
 export default function Product({ imageSrc, imageLogoSrc, text }) {
     return (
         <div className="Product">
-            <img src={imageSrc} alt="Product Image" className="ProductImage" />
+            <img src={imageSrc} alt="Product Image" className="CoverImage" />
             <div className="Product-Section">
-                <img src={imageLogoSrc} alt="Product Image Logo" className="ProductImageLogo" />
+                <img src={imageLogoSrc} alt="Product Image Logo" className="CoverImageLogo" />
             </div>
             <div className="Product-Section">
                 <div className="Product-Section-Divider">

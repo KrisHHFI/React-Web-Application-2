@@ -1,17 +1,17 @@
 import React from 'react';
 import Product from './Product';
-import Product1 from '../../Images/Product-1.jpg';
-import Product1Logo from '../../Images/Product-1-Logo.png';
-import Product2 from '../../Images/Product-2.jpg';
-import Product2Logo from '../../Images/Product-2-Logo.png';
-import Product3 from '../../Images/Product-3.jpg';
-import Product3Logo from '../../Images/Product-3-Logo.png';
-import Product4 from '../../Images/Product-4.jpg';
-import Product4Logo from '../../Images/Product-4-Logo.png';
-import Product5 from '../../Images/Product-5.jpg';
-import Product5Logo from '../../Images/Product-5-Logo.png';
-import Product6 from '../../Images/Product-6.jpg';
-import Product6Logo from '../../Images/Product-6-Logo.png';
+import Product1 from '../../Images/Products/Product-1.jpg';
+import Product1Logo from '../../Images/Products/Product-1-Logo.png';
+import Product2 from '../../Images/Products/Product-2.jpg';
+import Product2Logo from '../../Images/Products/Product-2-Logo.png';
+import Product3 from '../../Images/Products/Product-3.jpg';
+import Product3Logo from '../../Images/Products/Product-3-Logo.png';
+import Product4 from '../../Images/Products/Product-4.jpg';
+import Product4Logo from '../../Images/Products/Product-4-Logo.png';
+import Product5 from '../../Images/Products/Product-5.jpg';
+import Product5Logo from '../../Images/Products/Product-5-Logo.png';
+import Product6 from '../../Images/Products/Product-6.jpg';
+import Product6Logo from '../../Images/Products/Product-6-Logo.png';
 
 export default function Products() {
 
@@ -59,7 +59,7 @@ export default function Products() {
             </div>
             <div class="Product-Item">
                 <Product
-                    imageSrc={Product6}// Credit to Ron Lach, Pexels
+                    imageSrc={Product6}// Credit to Emiliano Arano, Pexels
                     imageLogoSrc={Product6Logo}
                     text={Product3Text}
                 />
