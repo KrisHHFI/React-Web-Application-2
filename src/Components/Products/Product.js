@@ -1,11 +1,14 @@
 import React from 'react';
+import Product1Logo from '../../Images/Product-1-Logo.png';
+import Product1 from '../../Images/Product-1.jpg';
 
 export default function Product() {
 
     return (
         <div class="Product">
+            <img src={Product1} alt="Product Image" className="ProductImage" />
             <div class="Product-Section">
-                Commodo Consequat
+                <img src={Product1Logo} alt="Product Image Logo" className="ProductImageLogo" />
             </div>
             <div class="Product-Section">
                 <div class="Product-Section-Divider">

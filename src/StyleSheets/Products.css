@@ -8,10 +8,7 @@
 .Product-Item {
     height: 200px;
     width: 100%;
-}
-
-.Product-1 {
-    background-color: red;
+    position: relative;
 }
 
 .Product {
@@ -26,16 +23,45 @@
     flex: 1;
     justify-content: center;
     text-align: center;
+    align-items: center;
+}
+
+.ProductImage {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
 }
 
 .Product-Section-Divider {
     color: white;
+    margin-bottom: 15px;
+}
+
+.ProductImageLogo {
+    width: 60%;
+}
+
+.Product-Title {
+    font-size: 30px;
+    font-weight: bold;
+    color: white; /* Text color */
 }
 
 .Product-Text {
     text-align: left;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    border-radius: 5px;
 } 
 
 .Product-Link {
-
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 5px 30px 5px 30px;
+    border-radius: 15px;
+    font-weight: bold;
 }
