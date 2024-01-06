@@ -1,24 +1,18 @@
 import React from 'react';
-import Product1Logo from '../../Images/Product-1-Logo.png';
-import Product1 from '../../Images/Product-1.jpg';
 
-export default function Product() {
-
+export default function Product({ imageSrc, imageLogoSrc, text }) {
     return (
-        <div class="Product">
-            <img src={Product1} alt="Product Image" className="ProductImage" />
-            <div class="Product-Section">
-                <img src={Product1Logo} alt="Product Image Logo" className="ProductImageLogo" />
+        <div className="Product">
+            <img src={imageSrc} alt="Product Image" className="ProductImage" />
+            <div className="Product-Section">
+                <img src={imageLogoSrc} alt="Product Image Logo" className="ProductImageLogo" />
             </div>
-            <div class="Product-Section">
-                <div class="Product-Section-Divider">
-                    <div class="Product-Text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
-                    </div>
+            <div className="Product-Section">
+                <div className="Product-Section-Divider">
+                    <div className="Product-Text">{text}</div>
                 </div>
-                <div class="Product-Section-Divider">
-                    <a class="Product-Link" href="#">Lorem</a>
+                <div className="Product-Section-Divider">
+                    <a className="Product-Link" href="#">Lorem</a>
                 </div>
             </div>
         </div>
