@@ -12,10 +12,6 @@
     position: relative;
 }
 
-.About-1 {
-    background-color: red;
-}
-
 .About-Divider {
     background-color: white;
     height: 50px;
@@ -26,6 +22,28 @@
 
 .AboutImageTitle {
     height: 20%;
+}
+
+.About-Text-Title {
+    padding-bottom: 10px;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.About-Text-Box-1 {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    height: 150px;
+    width: calc(100% - 160px);
+    margin: 0 40px 20px 40px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    display: flex;
+    padding: 0 40px 0 40px;
+    font-size: 18px;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* background-color: rgb(219, 219, 219); */
