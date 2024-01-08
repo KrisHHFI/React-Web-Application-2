@@ -24,6 +24,7 @@
 .AboutImageTitle {
     position: absolute;
     height: 20%;
+    height: 80px;
     top: 0;
 }
 
@@ -54,6 +55,8 @@
     align-items: center;
     flex-wrap: wrap;
     align-content: center;
+    height: fit-content;
+    padding-top: 80px;
 }
 
 .Our-Story-Item {
@@ -75,4 +78,15 @@
 
 .Our-Story-Item-Text {
     font-size: 18px;
+}
+
+.Our-Story-Container-Part-2 {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: fit-content;
+}
+
+.Our-Story-Container-Part-2-Text-Box {
+    position: relative;
 }

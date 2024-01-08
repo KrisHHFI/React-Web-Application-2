@@ -72,7 +72,15 @@ export default function About() {
                     </div>
                 </div>
             </div>
-            <div class="About-Item">
+            <div class="About-Item Our-Story-Container-Part-2">
+                <div class="About-Text-Box Our-Story-Container-Part-2-Text-Box">
+                    <div class="About-Text-Title">
+                        {titleText1}
+                    </div>
+                    <div>
+                        {text2} <br/> <br/> {text2}
+                    </div>
+                </div>
             </div>
         </div>
     );
