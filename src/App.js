@@ -8,7 +8,7 @@ import './StyleSheets/About.css';
 // Components
 import Header from './Components/Header';
 import Products from './Components/Products/Products';
-import About from './Components/About';
+import About from './Components//About/About';
 import Contact from './Components/Contact';
 
 function App() {
@@ -36,7 +36,6 @@ function App() {
       <Header activeLink={activeLink} onLinkClick={handleLinkClick} />
       <div className="Content-Container">
         {renderContent()}
-        {/* <Clock /> */}
       </div>
     </div>
   );
