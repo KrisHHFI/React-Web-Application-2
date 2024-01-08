@@ -8,3 +8,11 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+.CoverImage {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}

@@ -26,14 +26,6 @@
     align-items: center;
 }
 
-.CoverImage {
-    height: 100%;
-    object-fit: cover;
-    width: 100%;
-    position: absolute;
-    z-index: -1;
-}
-
 .Product-Section-Divider {
     color: white;
     margin-bottom: 15px;

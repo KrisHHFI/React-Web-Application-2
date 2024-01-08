@@ -3,7 +3,8 @@
     flex-direction: column;
     width: 100%;
     background-color: transparent;
-
+    background-color: rgb(219, 219, 219);
+    z-index: -2;
 }
 
 .About-Item {
@@ -13,7 +14,7 @@
 }
 
 .About-Divider {
-    background-color: white;
+    background-color: rgb(219, 219, 219);
     height: 50px;
     width: 100%;
     position: absolute;
@@ -21,7 +22,9 @@
 }
 
 .AboutImageTitle {
+    position: absolute;
     height: 20%;
+    top: 0;
 }
 
 .About-Text-Title {
@@ -45,4 +48,31 @@
     justify-content: center;
 }
 
-/* background-color: rgb(219, 219, 219); */
+.Our-Story-Container {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.Our-Story-Item {
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-left: 1px solid black;
+    height: fit-content;
+    margin: 20px;
+    min-width: 150px;
+}
+
+.Our-Story-Item-Number {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.Our-Story-Item-Text {
+    font-size: 18px;
+}

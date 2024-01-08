@@ -6,7 +6,7 @@ import HelsinkiSkyline from '../../Images/About/HelsinkiSkyline.jpg';
 import Who from '../../Images/About/Who.png';
 import WhatWeDo from '../../Images/About/WhatWeDo.png';
 import Office from '../../Images/About/Office.png';
-import Mission from '../../Images/About/Mission.png';
+import OurStory from '../../Images/About/OurStory.png';
 
 export default function About() {
     const titleText1 = `Tempor incididunt ut labore!`;
@@ -37,8 +37,40 @@ export default function About() {
                 titleText={titleText1}
                 text={text1}
             />
-            <div class="About-Item">
-                <img src={Mission} alt="Mission Title" className="AboutImageTitle" />
+            <div class="About-Item Our-Story-Container">
+                <img src={OurStory} alt="Our Story Title" className="AboutImageTitle" />
+                <div class="Our-Story-Item">
+                    <div class="Our-Story-Item-Number">
+                        8
+                    </div>
+                    <div class="Our-Story-Item-Text">
+                        Years
+                    </div>
+                </div>
+                <div class="Our-Story-Item">
+                    <div class="Our-Story-Item-Number">
+                        14
+                    </div>
+                    <div class="Our-Story-Item-Text">
+                        Countries
+                    </div>
+                </div>
+                <div class="Our-Story-Item">
+                    <div class="Our-Story-Item-Number">
+                        40,000
+                    </div>
+                    <div class="Our-Story-Item-Text">
+                        Customers
+                    </div>
+                </div>
+                <div class="Our-Story-Item">
+                    <div class="Our-Story-Item-Number">
+                        16
+                    </div>
+                    <div class="Our-Story-Item-Text">
+                        Awards
+                    </div>
+                </div>
             </div>
             <div class="About-Item">
             </div>
