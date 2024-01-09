@@ -49,7 +49,7 @@ export default function About() {
                 titleText={titleText1}
                 text={text1}
             />
-            <div class="About-Item Our-Story-Container">
+            <div class="About-Item About-Item-2-Container">
                 <img src={OurStory} alt="Our Story Title" className="AboutImageTitle" />
                 <AboutItem2
                     AboutItem2Number={AboutItem2Number}

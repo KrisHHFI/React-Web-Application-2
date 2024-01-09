@@ -50,7 +50,7 @@
     justify-content: center;
 }
 
-.Our-Story-Container {
+.About-Item-2-Container {
     display: flex;
     justify-items: center;
     align-items: center;
@@ -60,7 +60,7 @@
     padding-top: 100px;
 }
 
-.Our-Story-Item {
+.About-Item-2 {
     flex: 1;
     justify-content: center;
     display: flex;
@@ -72,22 +72,22 @@
     min-width: 100px;
 }
 
-.Our-Story-Item-Number {
+.About-Item-2-Number {
     font-weight: bold;
     font-size: 30px;
 }
 
-.Our-Story-Item-Text {
+.About-Item-2-Text {
     font-size: 18px;
 }
 
-.Our-Story-Container-Part-2 {
+.About-Item-3 {
     display: flex;
     align-content: center;
     align-items: center;
     height: fit-content;
 }
 
-.Our-Story-Container-Part-2-Text-Box {
+.About-Item-3-Text-Box {
     position: relative;
 }
