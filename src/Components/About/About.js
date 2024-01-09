@@ -1,5 +1,7 @@
 import React from 'react';
 import AboutItem from './About-Item';
+import AboutItem2 from './About-Item-2';
+import AboutItem3 from './About-Item-3';
 import OfficeInterior from '../../Images/About/OfficeInterior.png';
 import ConstructionSite from '../../Images/About/ConstructionSite.png';
 import HelsinkiSkyline from '../../Images/About/HelsinkiSkyline.jpg';
@@ -15,7 +17,17 @@ export default function About() {
     const titleText2 = `Cillum dolore eu fugiat!`;
     const text2 = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
     dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`;
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`;
+    const text3 = `${text2} ${text1}`;
+
+    const AboutItem2Number = `8`;
+    const AboutItem2Text = `Years`;
+    const AboutItem2Number2 = `14`;
+    const AboutItem2Text2 = `Countries`;
+    const AboutItem2Number3 = `40,000`;
+    const AboutItem2Text3 = `Customers`;
+    const AboutItem2Number4 = `16`;
+    const AboutItem2Text4 = `Awards`;
 
     return (
         <div class="About-Container">
@@ -39,49 +51,27 @@ export default function About() {
             />
             <div class="About-Item Our-Story-Container">
                 <img src={OurStory} alt="Our Story Title" className="AboutImageTitle" />
-                <div class="Our-Story-Item">
-                    <div class="Our-Story-Item-Number">
-                        8
-                    </div>
-                    <div class="Our-Story-Item-Text">
-                        Years
-                    </div>
-                </div>
-                <div class="Our-Story-Item">
-                    <div class="Our-Story-Item-Number">
-                        14
-                    </div>
-                    <div class="Our-Story-Item-Text">
-                        Countries
-                    </div>
-                </div>
-                <div class="Our-Story-Item">
-                    <div class="Our-Story-Item-Number">
-                        40,000
-                    </div>
-                    <div class="Our-Story-Item-Text">
-                        Customers
-                    </div>
-                </div>
-                <div class="Our-Story-Item">
-                    <div class="Our-Story-Item-Number">
-                        16
-                    </div>
-                    <div class="Our-Story-Item-Text">
-                        Awards
-                    </div>
-                </div>
+                <AboutItem2
+                    AboutItem2Number={AboutItem2Number}
+                    AboutItem2Text={AboutItem2Text}
+                />
+                <AboutItem2
+                    AboutItem2Number={AboutItem2Number2}
+                    AboutItem2Text={AboutItem2Text2}
+                />
+                <AboutItem2
+                    AboutItem2Number={AboutItem2Number3}
+                    AboutItem2Text={AboutItem2Text3}
+                />
+                <AboutItem2
+                    AboutItem2Number={AboutItem2Number4}
+                    AboutItem2Text={AboutItem2Text4}
+                />
             </div>
-            <div class="About-Item Our-Story-Container-Part-2">
-                <div class="About-Text-Box Our-Story-Container-Part-2-Text-Box">
-                    <div class="About-Text-Title">
-                        {titleText1}
-                    </div>
-                    <div>
-                        {text2} <br/> <br/> {text2}
-                    </div>
-                </div>
-            </div>
+            <AboutItem3
+                AboutItem3Title={titleText1}
+                AboutItem3Text={text3}
+            />
         </div>
     );
 }
