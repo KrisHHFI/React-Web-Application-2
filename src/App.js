@@ -5,6 +5,7 @@ import './StyleSheets/Header.css';
 import './StyleSheets/Content.css';
 import './StyleSheets/Products.css';
 import './StyleSheets/About.css';
+import './StyleSheets/Contact.css';
 // Components
 import Header from './Components/Header';
 import Products from './Components/Products/Products';

@@ -1,0 +1,23 @@
+.Contact-Container {
+    background-color: rgb(219, 219, 219);
+    width: 100%;
+}
+
+.Contact-Form-Container {
+    display: flex;
+    justify-content: center;
+}
+
+.Contact-Form {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+
+.Contact-Form-Title {
+    position: relative;
+    height: 20%;
+    height: 80px;
+    top: 0;
+    margin-left: 20px;
+}
