@@ -6,13 +6,13 @@ export default function Header({ activeLink, onLinkClick }) {
     
     return (
         <div className="Header-Container">
-            <div className="Header-Item">
+            <div className="Header-Item-1 Header-Item">
                 <img src={CompanyLogo} alt="Company Logo" className="CompanyLogo" />
             </div>
-            <div className="Header-Item">
+            <div className="Header-Item hidden">
                 <img src={CompanyText} alt="Company Text" className="CompanyText" />
             </div>
-            <div className="Header-Item">
+            <div className="Header-Item-3 Header-Item">
                 <div className="Nav-Bar">
                     <div className={`Nav-Item ${activeLink === 'Products' ? 'active' : ''}`}>
                         <a href="#" onClick={() => onLinkClick('Products')}>Products</a>

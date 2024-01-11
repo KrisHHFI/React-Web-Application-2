@@ -9,6 +9,36 @@
     top: 0;
 }
 
+/* Burger nav appears*/
+@media screen and (max-width: 900px) {
+    .Header-Container {
+        position: relative;
+        flex-direction: row;
+        height: fit-content;
+        padding: 10px 7px 10px 5px 
+    }
+
+    .hidden {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .Header-Item-1 {
+        flex: 1;
+    }
+
+    .Header-Item-3 {
+        flex: 4;
+    }
+
+    .Nav-Bar {
+        margin: 0 !important;
+        height: 40px;
+        align-items: center;
+        width: 100% !important;
+    }
+}
+
 .Header-Item {
     align-items: center;
     display: flex;
@@ -17,6 +47,7 @@
 }
 
 .CompanyLogo {
+    min-width: 60px;
     width: 30%;
 }
 
@@ -63,4 +94,4 @@
 .active:hover {
     background-color: rgb(28, 100, 22);
     color: White;
-  }
+}

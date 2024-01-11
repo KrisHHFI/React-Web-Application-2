@@ -4,6 +4,13 @@
   width: 100%;
 }
 
+/* Burger nav appears*/
+@media screen and (max-width: 900px) {
+  .Wrapper {
+      flex-direction: column;
+  }
+}
+
 a {
   color: inherit;
   text-decoration: none;
