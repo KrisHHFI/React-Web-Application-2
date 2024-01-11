@@ -38,7 +38,7 @@ export default function Contact() {
                     <textarea style={{ resize: 'none' }} type="text"
                         placeholder="Message*"
                     />
-                    <div className="PageContent6FormCheckBoxContainer">
+                    <div className="CheckBoxContainer">
                         <input type="checkbox" id="TermsAndConditions" name="TermsAndConditions" />
                         <label for="TermsAndConditions"> I agree to the terms and conditions.</label>
                     </div>
