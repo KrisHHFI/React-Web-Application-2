@@ -2,13 +2,12 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-
 }
 
 .Product-Item {
     height: 200px;
-    width: 100%;
     position: relative;
+    width: 100%;
 }
 
 .Product {
@@ -18,12 +17,12 @@
 }
 
 .Product-Section {
+    align-items: center;
     display: flex;
-    flex-direction: column;
     flex: 1;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
-    align-items: center;
 }
 
 .Product-Section-Divider {
@@ -36,17 +35,17 @@
 }
 
 .Product-Text {
-    text-align: left;
-    font-size: 18px;
     background-color: rgba(0, 0, 0, 0.8);
+    font-size: 18px;
     padding: 5px;
+    text-align: left;
 } 
 
 .Product-Link {
     background-color: rgba(0, 0, 0, 0.8);
-    font-size: 18px;
-    text-transform: uppercase;
-    padding: 5px 40px 5px 40px;
     border-radius: 15px;
+    font-size: 18px;
     font-weight: bold;
+    padding: 5px 40px 5px 40px;
+    text-transform: uppercase;
 }

@@ -1,80 +1,78 @@
 .About-Container {
+    background-color: rgb(219, 219, 219);
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: transparent;
-    background-color: rgb(219, 219, 219);
     z-index: -2;
 }
 
 .About-Item {
     height: 400px;
-    width: 100%;
     position: relative;
+    width: 100%;
 }
 
 .About-Divider {
     background-color: rgb(219, 219, 219);
-    height: 50px;
-    width: 100%;
-    position: absolute;
     bottom: 0;
+    height: 50px;
+    position: absolute;
+    width: 100%;
 }
 
 .AboutImageTitle {
-    position: absolute;
-    height: 20%;
     height: 80px;
-    top: 0;
     margin-left: 20px;
+    position: absolute;
+    top: 0; 
 }
 
 .About-Text-Title {
-    padding-bottom: 10px;
     font-size: 22px;
     font-style: italic;
+    padding-bottom: 10px;
 }
 
 .About-Text-Box {
     background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    width: calc(100% - 160px);
-    margin: 0 40px 20px 40px;
-    position: absolute;
     bottom: 0;
-    text-align: center;
+    color: white;
     display: flex;
-    padding: 10px 40px 10px 40px;
-    font-size: 18px;
     flex-direction: column;
+    font-size: 18px;
     justify-content: center;
+    margin: 0 40px 20px 40px;
+    padding: 10px 40px 10px 40px;
+    position: absolute;
+    text-align: center;
+    width: calc(100% - 160px);
 }
 
 .About-Item-2-Container {
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    flex-wrap: wrap;
     align-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
     height: fit-content;
+    justify-items: center;
     padding-top: 100px;
 }
 
 .About-Item-2 {
-    flex: 1;
-    justify-content: center;
-    display: flex;
     align-items: center;
-    flex-direction: column;
     border-left: 1px solid black;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
     height: fit-content;
+    justify-content: center;
     margin: 10px 40px 30px 40px;
     min-width: 100px;
 }
 
 .About-Item-2-Number {
-    font-weight: bold;
     font-size: 30px;
+    font-weight: bold;
 }
 
 .About-Item-2-Text {
@@ -82,9 +80,9 @@
 }
 
 .About-Item-3 {
-    display: flex;
     align-content: center;
     align-items: center;
+    display: flex;
     height: fit-content;
 }
 

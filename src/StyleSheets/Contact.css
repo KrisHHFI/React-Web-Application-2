@@ -9,19 +9,18 @@
 }
 
 .Contact-Form {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    width: 75%;
     margin-top: 25px;
-    align-items: center;
+    width: 75%;
 }
 
 .Contact-Form-Title {
-    position: relative;
-    height: 20%;
     height: 80px;
-    top: 0;
     margin-left: 20px;
+    position: relative;
+    top: 0;
 }
 
 .Contact-Form input {
@@ -41,21 +40,21 @@
 }
 
 .CheckBoxContainer {
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
     margin: 15px 0 15px 0;
-}
-
-.CheckBoxContainer label {
-    flex: 3;
 }
 
 .CheckBoxContainer input {
     flex: 1;
 }
 
-.BasicButton {
+.CheckBoxContainer label {
+    flex: 3;
+}
+
+.Contact-Form-Button {
     background-color: black;
     border: 2px solid black;
     border-radius: 25px;

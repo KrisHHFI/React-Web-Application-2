@@ -42,7 +42,7 @@ export default function Contact() {
                         <input type="checkbox" id="TermsAndConditions" name="TermsAndConditions" />
                         <label for="TermsAndConditions"> I agree to the terms and conditions.</label>
                     </div>
-                    <button class="BasicButton" onClick={submitForm}>
+                    <button class="Contact-Form-Button" onClick={submitForm}>
                         Excepteur
                     </button>
                 </form>
