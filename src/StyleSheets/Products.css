@@ -52,10 +52,6 @@
 
 /* Burger nav appears*/
 @media screen and (max-width: 900px) {
-    .Product-Section-1 {
-       
-    }
-
     .Product-Section-2 {
         flex: 2;
     }
@@ -71,9 +67,5 @@
     
     .Product-Item {
         width: calc(100% - 10px);
-    }
-
-
-
-   
+    }   
 }
