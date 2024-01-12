@@ -49,3 +49,31 @@
     padding: 5px 40px 5px 40px;
     text-transform: uppercase;
 }
+
+/* Burger nav appears*/
+@media screen and (max-width: 900px) {
+    .Product-Section-1 {
+       
+    }
+
+    .Product-Section-2 {
+        flex: 2;
+    }
+
+    .CoverImageLogo {
+        width: 100%;
+    }
+
+    .Product {
+        padding: 5px;
+      
+    }
+    
+    .Product-Item {
+        width: calc(100% - 10px);
+    }
+
+
+
+   
+}
