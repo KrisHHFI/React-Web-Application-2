@@ -39,7 +39,7 @@
     font-size: 18px;
     padding: 5px;
     text-align: left;
-} 
+}
 
 .Product-Link {
     background-color: rgba(0, 0, 0, 0.8);
@@ -62,10 +62,9 @@
 
     .Product {
         padding: 5px;
-      
     }
-    
+
     .Product-Item {
         width: calc(100% - 10px);
-    }   
+    }
 }

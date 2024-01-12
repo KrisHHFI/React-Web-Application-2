@@ -1,5 +1,5 @@
 import React from 'react';
-import AboutItem from './About-Item';
+import AboutItem from './About-Item-1';
 import AboutItem2 from './About-Item-2';
 import AboutItem3 from './About-Item-3';
 import OfficeInterior from '../../Images/About/OfficeInterior.png';
@@ -51,22 +51,24 @@ export default function About() {
             />
             <div class="About-Item About-Item-2-Container">
                 <img src={OurStory} alt="Our Story Title" className="AboutImageTitle" />
-                <AboutItem2
-                    AboutItem2Number={AboutItem2Number}
-                    AboutItem2Text={AboutItem2Text}
-                />
-                <AboutItem2
-                    AboutItem2Number={AboutItem2Number2}
-                    AboutItem2Text={AboutItem2Text2}
-                />
-                <AboutItem2
-                    AboutItem2Number={AboutItem2Number3}
-                    AboutItem2Text={AboutItem2Text3}
-                />
-                <AboutItem2
-                    AboutItem2Number={AboutItem2Number4}
-                    AboutItem2Text={AboutItem2Text4}
-                />
+                <div class = "About-Stats-Container">
+                    <AboutItem2
+                        AboutItem2Number={AboutItem2Number}
+                        AboutItem2Text={AboutItem2Text}
+                    />
+                    <AboutItem2
+                        AboutItem2Number={AboutItem2Number2}
+                        AboutItem2Text={AboutItem2Text2}
+                    />
+                    <AboutItem2
+                        AboutItem2Number={AboutItem2Number3}
+                        AboutItem2Text={AboutItem2Text3}
+                    />
+                    <AboutItem2
+                        AboutItem2Number={AboutItem2Number4}
+                        AboutItem2Text={AboutItem2Text4}
+                    />
+                </div>
             </div>
             <AboutItem3
                 AboutItem3Title={titleText1}
