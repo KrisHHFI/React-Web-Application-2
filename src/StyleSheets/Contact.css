@@ -66,3 +66,7 @@
     text-transform: uppercase;
     width: fit-content;
   }
+
+  .Contact-Form-Button:hover {
+    font-weight: bold;
+  }

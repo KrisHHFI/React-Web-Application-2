@@ -50,6 +50,10 @@
     text-transform: uppercase;
 }
 
+.Product-Link:hover {
+    background-color: black;
+}
+
 /* Burger nav appears*/
 @media screen and (max-width: 900px) {
     .Product-Section-2 {
