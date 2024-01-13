@@ -2,7 +2,7 @@
 
 <img src="src/Images/Web App 2 Promo Pic.png"/>
 
-Check out the [demo video]().
+Check out the [demo video](https://youtu.be/Tp1rolono30).
 
 ### Launch the App
 
