@@ -1,6 +1,6 @@
 # React-Web-Application-2
 
-<img src=""/>
+<img src="src/Images/Web App 2 Promo Pic.png"/>
 
 Check out the [demo video]().
 
