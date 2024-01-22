@@ -18,4 +18,4 @@ Check out the [demo video](https://youtu.be/Tp1rolono30).
 - The app was created during the start of 2024.
 - The aim of the project was to make a web application for a fictional company, with the focus being the the front-end.
 - The app was catered for both mobile and desktop view.
-- The appliation follows a split screen design. When in mobile view, the existing content is restructured.
+- The application follows a split screen design. When in mobile view, the existing content is restructured.
